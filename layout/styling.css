@@ -7,8 +7,29 @@ body {
 	width:98%;
 	margin: 0.3125em auto;
 }
+#breadcrumb{
+margin:0px 10px 15px 10px;
+text-align:center;
+float:top;
+
+}
+.text-loc h2{
+padding-top:7px;
+}
+#page-title h2{
+margin-top:15px;
+
+}
 #primarynav {
 	float:left;
+	text-align:center;
+	margin:15px 10px 20px 10px;
+	height:500px;
+
+}
+.secondary-bg h1{
+padding-top: 0px;
+margin-top:0px;
 }
 .secondary-bg {
 	background-color: #f4f4f4;
@@ -18,6 +39,7 @@ body {
 }
 .main-column-width {
 	width:160px;
+	height:500px;
 }
 #content {
 	float:left;
@@ -36,6 +58,8 @@ body {
 .block h3 {
 	text-transform: lowercase;
 	text-align:center;
+	background-color:#f4f4f4;
+	margin: 0 10px 15px 10px;
 }
 .block li {
 	float:left;

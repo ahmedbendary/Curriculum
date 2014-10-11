@@ -2,15 +2,21 @@
 body {
 	font-size: 1em;
 }
-
+#frame {
+	float:center;
+	width:100%;
+	padding-left:15%;
+}
 #wrapper {
-	width:98%;
-	margin: 0.3125em auto;
+	float:center;
+	width:75%;
+	./margin-left: 40px;
 }
 #breadcrumb{
 margin:0px 10px 15px 10px;
 text-align:center;
 float:top;
+font-size:1.2vw;
 
 }
 .text-loc h2{
@@ -25,11 +31,18 @@ margin-top:15px;
 	text-align:center;
 	margin:15px 10px 20px 10px;
 	height:500px;
+	max-width:20%;
 
 }
+#primarynav h4{
+font-weight:normal;
+}
+
 .secondary-bg h1{
 padding-top: 0px;
 margin-top:0px;
+font-size:14px;
+font-size:2.5vw;
 }
 .secondary-bg {
 	background-color: #f4f4f4;
@@ -44,12 +57,16 @@ margin-top:0px;
 #content {
 	float:left;
 	min-width:200px;
-	max-width:560px;
-	width:100%;
+	./max-width:560px;
+	width:50%;
 	display: block;
 }
 #locations {
 	float:left;
+	max-width:20%;
+	text-align:center;
+	margin:15px 10px 20px 10px;
+	height:500px;
 }
 .block {
 	float:left;

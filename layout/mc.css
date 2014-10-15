@@ -1,0 +1,5 @@
+/* @media Rule */
+@media all and (max-width: 900px) 
+{#content{max-width:137px}}
+@media all and (max-width: 1349px) 
+{#content{max-width:483px}}

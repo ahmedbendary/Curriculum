@@ -23,12 +23,10 @@ body {
 
 #breadcrumb{
 position:relative;
-left:0;
-top:0;
 margin:0 0 10 0;
 text-align:center;
-float:left-side;
-width: auto;
+float:left;
+max-width: 100%;
 height:40px;	
 -webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
@@ -100,12 +98,16 @@ font-size:2.5vw;
 /*@media (min-width:500px) and (max-width:1054px){*/
 #content {
 position:relative;
-padding:16px 10.25px 20px 10.25px;
+margin:16px 10.25px 20px 10.25px;
 float:left;
-max-width:483px;	
+max-width:56%;	
 height:auto;
 display: block;
 }
+#block-container{
+float:left;
+max-width:100%;
+height:;}
 #locations {
 	float:right;
 	width:145px;
@@ -115,7 +117,7 @@ display: block;
 }
 .block {
 	float:left;
-	max-width:145px;
+	max-width:140px;
 	margin: 0 0 15px 15px;
 }
 
@@ -131,8 +133,7 @@ display: block;
 	color:blue;
 	float:left;
 	min-width:65px;
-	max-width:145px;
-	margin-left:-15px;
+	max-width:140px;
 }
 .subpage{color:blue;
 font-size:70%}
